@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(99deg, #194601 44%, #4e7d07 53%);
+
+}
+.navbar_brand>img{
+    width: 40px;
+}
+.nav-right{
+    color: rgb(59, 59, 1);
+    background: linear-gradient(279deg, #194601 44%, #4e7d07 53%);
+}
+ a{
+   text-decoration: none;
+    color: rgb(184, 184, 0);
+}
+.card{
+    background: linear-gradient(279deg, #194601 44%, #4e7d07 53%);
+}
+.slide-text{
+    color: rgb(184, 184, 0)
+}
+.slide-text{
+    margin: auto auto;
+    padding: 5rem;
+}
+.footer_text{
+    color: rgba(162, 162, 77, 0.91);
+    margin: auto auto;
+}
+footer{
+    background: linear-gradient(270deg, #194601 44%, #4e7d07 53%);
+}
+.phone-animation{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+@media(max-width:750px){
+    .carousel-indicators{
+        display: none;
+    }
+}
